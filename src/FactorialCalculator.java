@@ -15,20 +15,20 @@ public class FactorialCalculator extends Calculator {
         int num6 = num5;
 
         while (true) {
-            if (num3 >= 1) {
+            if (num3 > 1) {
                 num3 -= 1;
                 num4 = num4 * num3;
-            } else if (num3 < 1) {
+            } else if (num3 <= 1) {
                 result1 = num4;
                 break;
             }
         }
 
         while (true) {
-            if (num5 >= 1) {
+            if (num5 > 1) {
                 num5 -= 1;
                 num6 = num6 * num5;
-            } else if (num5 < 1) {
+            } else if (num5 <= 1) {
                 result2 = num6;
                 break;
             }

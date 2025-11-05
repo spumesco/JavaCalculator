@@ -37,7 +37,7 @@ public class Main {
         calc_mod.displayResult("%");
 
         FactorialCalculator calc_F = new FactorialCalculator();
-        calc_F.setNumbers(10, 2);
+        calc_F.setNumbers(6, 2);
         calc_F.factorial();
         calc_F.displayResult("!");
     }
