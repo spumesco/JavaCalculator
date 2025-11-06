@@ -8,7 +8,7 @@ public class FactorialCalculator extends Calculator {
         System.out.println(num2 + operator + " = " + result2);
     }
 
-    public int[] factorial() {
+    public int factorial() {
         int num3 = num1;
         int num4 = num3;
         int num5 = num2;
@@ -34,7 +34,7 @@ public class FactorialCalculator extends Calculator {
             }
         }
 
-        return new int[]{result1, result2};
+        return result1 + result2;
 
     }
 }
