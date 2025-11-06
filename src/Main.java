@@ -35,5 +35,10 @@ public class Main {
         calc_mod.setNumbers(80, 3);
         calc_mod.mod();
         calc_mod.displayResult("%");
+
+        FactorialCalculator calc_F = new FactorialCalculator();
+        calc_F.setNumbers(6, 2);
+        calc_F.factorial();
+        calc_F.displayResult("!");
     }
 }
